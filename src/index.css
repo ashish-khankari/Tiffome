@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(250, 250, 250);
+}
+
+
+/* Main- Section */
+
+#header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px 80px;
+background-color: aliceblue;
+box-shadow: 0 1px 5px;
+position: sticky;
+top: 0;
+left: 0;
+}
+
+.logo{
+font-size: 30px;
+cursor: pointer;
+color: crimson;
+
+}
+
+
+
+#navbar{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#navbar li{
+list-style: none;
+padding: 0 20px;
+}
+
+#navbar li a{
+text-decoration: none;
+font-size: 16px;
+font-weight: 600;
+color: #1a1a1a;
+}
+
+
+/* Hero Section */
+
+#hero{
+  background-image: url( "assets/images/Tiffin.jpg");
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 25% right 0;
+  padding: 0 80px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+ 
+}
+
+#hero button{
+background-color: cadetblue;
+width: 120px;
+height: 40px;
+border-radius: 20px;
+border: none;
+cursor: pointer;
+margin-top: 60px;
+}
+
+#hero h1{
+  font-size: 30px;
+}
+#hero p{
+  height: 15px;
+  font-weight: 500;
+}
